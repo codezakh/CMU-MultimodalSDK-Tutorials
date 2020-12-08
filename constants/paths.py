@@ -7,7 +7,7 @@ SDK_PATH: Optional[str] = None
 DATA_PATH: Optional[str] = './data/'
 
 # path to a pretrained word embedding file
-WORD_EMB_PATH: Optional[str] = None
+WORD_EMB_PATH: Optional[str] = '/home/zaid/Datasets/GloveWikiEmbeddings/glove.6B.300d.txt'
 
 # path to loaded word embedding matrix and corresponding word2id mapping
 CACHE_PATH: Optional[str] = './data/embedding_and_mapping.pt'
